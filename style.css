@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.global-net{
+    background-color: white;
+    border: 1px solid white;
+}
+.user>li>a{
+    color: #037FC5!important;
+    margin-top: 20px;
+    position: relative;
+}
+.user>li>a:hover{
+    text-decoration-line: underline;
+}
+.user>li>a::before{
+    content: url("./calendar.svg");
+    /* width: 25px; */
+    position: absolute;
+    top: 15px;
+    left: -15px;
+    /* padding: 25px; */
+}
+.header-next{
+    background-color: #037FC5;
+}
+.my-next{
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.header-next-nav>li>a{
+    color: white!important;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.header-next-nav{
+    margin: 0 160px 0 0;
+}
+.visual{
+    background-image: url(./bg.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 100px 0;
+    background-position: center center;
+    background-size: cover;
+}
+.visual-info{
+    margin-top: 250px;
+    /* padding: 50px; */
+}
+.visual-info h1{
+    color: white;
+    font-size: 34px;
+}
+.visual-info p{
+    color: white;
+    font-size: 18px;
+    padding: 15px 0;
+}
+.visual-info button{
+    background-color: #037FC5;
+    border: 1px solid #037FC5;
+    border-radius: 5px;
+    padding: 15px;
+    width: 240px;
+    color: white;
+}
+.visual-picture{
+    margin-top: 70px;
+}
+.main-columns{
+    box-shadow:0px 4px 20px rgb(0 0 0 / 7%);
+    margin: 50px 0;
+}
+.main-title{
+    text-align: center;
+    padding: 15px 0;
+}
+.main-info{
+    border: 1px solid white;
+    padding: 10px;
+}
+.main-info span{
+    color: rgb(160, 158, 158);
+    position: relative;
+    left: 19px;
+}
+.main-info span::before{
+    content: url('./calendar.svg');
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
+.main-info p{
+    padding: 15px 0;
+}
+.main-info button{
+    border: 1px solid white;
+    background-color: white;
+    margin: 25px 0;
+    font-size: 16px;
+}
+.main-info button:hover{
+    text-decoration-line: underline;
+}
+/* .main-botom{
+    text-align: center;
+    color: #037FC5;
+    
+} */
+.main-bottom h4{
+    border: 1px solid #037FC5;
+    padding: 10px;
+    border-radius: 3px;
+    width: 240px;
+    margin: auto;
+    text-align: center;
+    color: #037FC5;
+}
+.contacts{
+    margin: 80px 0;
+}
+footer{
+    background-color: rgb(219, 235, 241);
+    margin: 50px 0;
+}
+.footer-bottom{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 60px;
+}
+@media(max-width:768px) {
+    .visual-picture{
+        display: none;
+    }
+    .visual-info{
+        margin-top: 100px;
+    }
+    .connect{
+        margin-top: 100px;
+    }
+    .header-next-nav{
+        width: 100%;
+        text-align: center;
+    }
+    .header-next-nav>li>a{
+        padding: 10px;
+    }
+    .main-info button{
+        margin: 0;
+    }
+    .contacts-img{
+        text-align: center;
+        margin: 50px 0;
+    }
+    .contacts-area{
+        margin-top: 15px;
+    }
+    .contacts-area p{
+        font-size: 16px;
+    }
+    .global-net{
+        display: flex;
+    }
+}
